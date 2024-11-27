@@ -1,0 +1,198 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+
+
+.button1{
+ background-color:black; 
+color: white; 
+font-size: 16px; 
+padding: 10px 20px; 
+border: none; 
+border-radius: 5px; 
+cursor: pointer; 
+transition: background-color 0.3s, transform 0.3s; 
+}
+
+body{
+background-color:red;
+}
+
+.top-bar {
+    background-color: black; 
+    color:red; 
+    display: flex; 
+    align-items: center; 
+    padding: 10px 20px; 
+    font-family: 'Arial', sans-serif; 
+    font-size: 16px; 
+    font-style: italic;
+}
+
+
+.top-bar a {
+    margin-right: 40px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.container h2{
+    margin:50px;
+    color: white;
+    font-style: italic;
+}
+
+.logo {
+    height: auto; 
+    max-height: 100px; 
+    margin-right: 10px; 
+}
+
+
+.top-bar span {
+    font-size: 1.5rem; 
+    font-weight: bold;
+}
+
+.email{
+    font-family: 'Arial', sans-serif;  
+    font-style:italic;
+    color:white
+}
+
+.senha{
+    font-family: 'Arial', sans-serif;
+    font-style: italic;
+    color:white;
+}
+
+.links a {
+    text-decoration: none;
+    color:white; 
+    margin: 5px;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+p{
+    font-family: 'Arial', sans-serif;
+
+}
+
+.top-bar a {
+    margin-left: auto;  
+    color:red;
+
+}
+
+hr {
+    border: 0;
+    border-top: 2px solid black; 
+    width: 100%; 
+    margin: 20px 0; 
+}
+
+h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: italic;
+    font-family: 'Arial', sans-serif;
+    color:white;
+    
+}
+
+.bitcoin{
+        width: 300px; 
+        height: 300px; 
+        border-radius: 100%; 
+        object-fit: cover; 
+        
+    }
+
+    .dados{
+        color:white;
+    }
+
+    .social-media{
+        display:flex;
+        gap: 50px;
+        justify-content: center;
+        padding: 10px;
+        font-family: Arial, sans-serif;
+        color:white;
+    
+    }
+
+    .social-media a{
+        color:white;
+        font-size: 20px;
+        text-decoration: none;
+        transition: color 0.3s;
+
+
+    }
+
+    footer{
+        display: flex;
+        min-height: 120px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: black;
+        color:white;
+        padding:10px 10px;
+        text-align: center;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+
+    #google-login-btn {
+        background-color: #db4437; 
+        color: white; 
+        padding: 1px 5px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #google-login-btn i {
+        font-size: 20px;
+    }
+
+    #apple-login-btn {
+        background-color: #db4437; 
+        color: white; 
+        padding: 1px 5px;
+        font-size: 16px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #apple-login-btn i {
+        font-size: 20px; 
+    }
